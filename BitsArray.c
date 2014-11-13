@@ -11,7 +11,7 @@
  */
 BitsArray *
 BitsArray_new (
-	unsigned char *bytes,
+	byte *bytes,
 	int bytesLen
 ) {
 	BitsArray *this;
@@ -36,7 +36,7 @@ BitsArray_new (
 bool
 BitsArray_init (
 	BitsArray *this,
-	unsigned char * bytes,
+	byte * bytes,
 	int bytesLen
 ) {
 	this->bitsCount = 0;

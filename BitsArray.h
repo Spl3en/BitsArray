@@ -25,7 +25,7 @@ typedef struct _BitsArray
  */
 BitsArray *
 BitsArray_new (
-	unsigned char *bytes,
+	byte *bytes,
 	int bytesLen
 );
 
@@ -39,7 +39,7 @@ BitsArray_new (
 bool
 BitsArray_init (
 	BitsArray *this,
-	unsigned char * bytes,
+	byte * bytes,
 	int bytesLen
 );
 
